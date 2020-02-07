@@ -1,0 +1,10 @@
+version: '3'
+services:
+        java: 
+             build: ./java/
+             container_name: java_container
+             ports: 
+                - 5050:8080
+             tty: true
+             command: sh
+             restart: always 
