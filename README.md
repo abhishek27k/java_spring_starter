@@ -1,5 +1,7 @@
 # java_spring_starter
 
+### RUN
+
 ```
 docker-compose up -d --build
 docker-exec -it java_container bash
